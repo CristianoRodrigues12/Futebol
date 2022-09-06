@@ -1,0 +1,67 @@
+﻿@page
+@model Futebol.Pages.FinalModel
+@{
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="/css/site.css">
+    <style>
+        body {
+            background-color:red;
+        }
+    </style>
+    
+</head>
+<body>
+<form>
+        <label for="nome">Primeiro Nome:</label>
+        <br>
+        <input type="text" name="nome">
+        <br>
+        <label for="sobrenome">Segundo Nome</label>
+        <br>
+        <input type="text" name="sobrenome">
+        <br>
+        <br>
+        
+        <h2>O que você achou do time nesta temporada?</h2>
+        <input type="radio" name="opcao" checked> Muito Bom
+        <input type="radio" name="opcao"> Bom
+        <input type="radio" name="opcao"> Regular
+        <br>
+        <h2>Confiante para a grande final?</h2>
+        <input type="radio" name="final" value="ganha" checked > Campeão
+        <input type="radio" name="final" value="perde" > Vice
+        
+        <br>
+        <h2>Qual campeonato você mais torceu?</h2>
+        <select name="secao">
+            <option value=""></option>
+            <option value="liberta">Libertadores</option>
+            <option value="copa">Copa do Brasil</option>
+            <option value="brasileirao" selected>Brasileirão</option>
+        </select>    
+        <label for="outra">Outro:</label>
+        <input type="text" name="outro">
+        <br>
+        <br>
+        <textarea 
+                  placeholder="Digite um texto para a nação"  
+                  name="areatexto" 
+                  maxlength="180" 
+                  cols="50" 
+                  rows="10"></textarea>
+        <br>
+        <br>
+        <input type="button" name="botao" value="Botão">
+        <input type="submit" name="enviar" value="Enviar">
+        <input type="reset" name="reset" value="Limpar">
+    </form> 
+
+    <footer class="fim">Criado por Cristiano 2022</footer>
+
+</body>
+</html>

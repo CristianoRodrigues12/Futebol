@@ -1,0 +1,106 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+header {
+    
+    color:red;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #000000;
+    align-items: center;
+}
+
+nav {
+    text-align: center;
+    background-color:black;
+    color:red;
+    margin: 10px;
+}
+
+a {
+    text-align: center;
+    color: red;
+    text-decoration: none;
+    justify-content: center;
+    padding: 0px 40px 40px 0px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+div {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align:center;
+    color: red;
+}
+
+.colorfont {
+    color:red;
+}
+
+.limiteCarrosel {
+    height: 750px;
+}
+
+.imgCarrosel {
+    width: 100%;
+    height: auto;
+}
+
+.navbar-nav flex-grow-1 {
+    align-content: space-around;    
+}
+
+.inicio {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: red;
+    height: 5em;
+    margin-top: 5em;
+}
+
+.meio {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: black;
+    height: 5em;
+    margin-top: 5em;
+}
+
+.fim {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: black;
+    height: 5em;
+    margin-top: 5em;    
+}
+
